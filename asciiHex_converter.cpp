@@ -1,3 +1,4 @@
+//Two functions that will convert between ascii and hex inside of strings, with simple test inside of main.
 #include <string>
 #include <iostream>
 #include <sstream>
