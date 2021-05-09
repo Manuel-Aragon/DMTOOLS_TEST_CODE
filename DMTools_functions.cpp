@@ -29,3 +29,16 @@ std::string hexToAscii(std::string hexString)
     }
   return asciiString;
 }
+
+//split string 
+std::vector <std::string> split(std::string originalString, char delimiter)
+{
+	std::stringstream ss(originalString);
+	std::string s;
+	std::vector <std::string> splitString;
+
+	while (getline(ss, s, delimiter)) {
+		splitString.push_back(s);
+	}
+	return splitString;
+}
